@@ -1,0 +1,21 @@
+{
+    "name": "pupitooo/helpers",
+    "type": "library",
+    "description": "Helpers for main static work",
+    "homepage": "https://github.com/pupitooo/helpers",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Petr Poupě",
+            "email": "pupe.dupe@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "nette/nette": ">=2.1"
+    },
+    "autoload": {
+        "classmap": ["./"]
+    }
+}
