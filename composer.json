@@ -16,6 +16,8 @@
         "nette/nette": ">=2.1"
     },
     "autoload": {
-        "classmap": ["./"]
+        "psr-0": {
+            "Pupitooo\\Helpers": "src/"
+        }
     }
 }
